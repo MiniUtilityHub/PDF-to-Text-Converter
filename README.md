@@ -1,60 +1,31 @@
 # PDF-to-Text-Converter
 
-Here is a README.md template for your GitHub repository:
-
-```markdown
-# PDF to DOCX Converter
-
-This is a free and open-source software that converts PDF files to DOCX format. It is developed based on the `pdf2docx` library.
+This is a free and open-source software written in Python that converts PDF files to DOC files. The software leverages the `pdf2docx` library for efficient and accurate conversion.
 
 ## Features
 
-- Convert PDF files to DOCX format with ease.
-- Preserve the layout and formatting of the original PDF.
-- Free and open-source.
+- Convert PDF files to DOC format easily.
+- User-friendly GUI built with Tkinter.
+- Supports batch conversion for multiple files.
 
-## Installation
 
-To use this software, you need to have Python installed. You can install the required library using pip:
 
-```sh
-pip install pdf2docx
-```
+## Dependencies
 
-## Usage
-
-To convert a PDF file to DOCX, you can use the following command:
-
-```sh
-python convert.py input.pdf output.docx
-```
-
-Here is a simple example in Python:
-
-```python
-from pdf2docx import Converter
-
-def convert_pdf_to_docx(pdf_file, docx_file):
-    cv = Converter(pdf_file)
-    cv.convert(docx_file)
-    cv.close()
-
-# Example usage
-convert_pdf_to_docx('input.pdf', 'output.docx')
-```
+- Python 3.x
+- Tkinter
+- pdf2docx
 
 ## Contributing
 
-We welcome contributions! Please read our [Contributing Guidelines](CONTRIBUTING.md) for more details.
+We welcome contributions! Please fork the repository and submit pull requests.
 
-## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgements
 
-This software is built using the excellent [pdf2docx](https://github.com/dothinking/pdf2docx) library.
+- This software is developed using the [pdf2docx](https://github.com/dothinking/pdf2docx) library.
 
-```
+## Contact
 
-Feel free to customize this template further according to your project's specifics and requirements.
+For any questions or suggestions, please feel free to open an issue or contact us directly.
