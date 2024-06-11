@@ -8,6 +8,12 @@ This is a free and open-source software written in Python that converts PDF file
 - User-friendly GUI built with Tkinter.
 - Supports batch conversion for multiple files.
 
+## How to Use
+1. For the upcoming Windows version, download the latest release from the [Releases](https://github.com/MiniUtilityHub/Image-to-JPG-Converter/releases) page once it's available.
+
+
+## Updates
+- **2024-06-11**:Add an early access version.(windows version)
 
 
 ## Dependencies
